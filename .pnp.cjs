@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chokidar", "npm:3.5.3"],\
             ["concurrently", "npm:7.4.0"],\
             ["crypto-random-string", "npm:5.0.0"],\
-            ["dotenv", "npm:16.0.2"],\
+            ["dotenv", "npm:16.0.3"],\
             ["fastify", "npm:4.5.3"],\
             ["inquirer", "npm:8.2.4"],\
             ["lodash", "npm:4.17.21"],\
@@ -1601,10 +1601,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["dotenv", [\
-        ["npm:16.0.2", {\
-          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.2-80af4821b1-ca8f9ca2d6.zip/node_modules/dotenv/",\
+        ["npm:16.0.3", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.3-4cc29121dc-afcf03f373.zip/node_modules/dotenv/",\
           "packageDependencies": [\
-            ["dotenv", "npm:16.0.2"]\
+            ["dotenv", "npm:16.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2334,7 +2334,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chokidar", "npm:3.5.3"],\
             ["concurrently", "npm:7.4.0"],\
             ["crypto-random-string", "npm:5.0.0"],\
-            ["dotenv", "npm:16.0.2"],\
+            ["dotenv", "npm:16.0.3"],\
             ["fastify", "npm:4.5.3"],\
             ["inquirer", "npm:8.2.4"],\
             ["lodash", "npm:4.17.21"],\
