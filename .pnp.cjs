@@ -59,7 +59,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsconfig-to-swcconfig", "npm:2.0.1"],\
             ["tslib", "npm:2.4.0"],\
             ["tslog", "npm:3.3.4"],\
-            ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=a1c5e5"],\
             ["yargs", "npm:17.5.1"],\
             ["zod", "npm:3.19.0"]\
           ],\
@@ -2345,7 +2345,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsconfig-to-swcconfig", "npm:2.0.1"],\
             ["tslib", "npm:2.4.0"],\
             ["tslog", "npm:3.3.4"],\
-            ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=a1c5e5"],\
             ["yargs", "npm:17.5.1"],\
             ["zod", "npm:3.19.0"]\
           ],\
@@ -3718,10 +3718,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-4d824bf818-2222d2382f.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=a1c5e5", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-59b003cbd6-ef65c22622.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=a1c5e5"]\
           ],\
           "linkType": "HARD"\
         }]\
