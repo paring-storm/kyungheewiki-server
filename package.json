@@ -2,7 +2,7 @@
   "name": "kyungheewiki-server",
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
-    "@swc/core": "1.3.0",
+    "@swc/core": "1.3.19",
     "@trivago/prettier-plugin-sort-imports": "3.3.0",
     "@types/bcrypt": "5.0.0",
     "@types/inquirer": "9.0.1",
