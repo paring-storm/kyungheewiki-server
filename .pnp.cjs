@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["concurrently", "npm:7.4.0"],\
             ["crypto-random-string", "npm:5.0.0"],\
             ["dotenv", "npm:16.0.2"],\
-            ["fastify", "npm:4.5.3"],\
+            ["fastify", "npm:4.10.0"],\
             ["inquirer", "npm:8.2.4"],\
             ["lodash", "npm:4.17.21"],\
             ["mongoose", "npm:6.6.0"],\
@@ -384,12 +384,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@fastify/ajv-compiler", [\
-        ["npm:3.2.0", {\
-          "packageLocation": "./.yarn/cache/@fastify-ajv-compiler-npm-3.2.0-88223e9150-1cd40f54a9.zip/node_modules/@fastify/ajv-compiler/",\
+        ["npm:3.4.0", {\
+          "packageLocation": "./.yarn/cache/@fastify-ajv-compiler-npm-3.4.0-15f6a5a83f-3e03f9673f.zip/node_modules/@fastify/ajv-compiler/",\
           "packageDependencies": [\
-            ["@fastify/ajv-compiler", "npm:3.2.0"],\
-            ["ajv", "npm:8.11.0"],\
-            ["ajv-formats", "virtual:88223e9150645328f8bb1093386d1cb6473799d8d37a6dc8403037b490f03d4e072041ccf02d589b91003cde7b02498bef0e6eb8b6e1aa843b1d544e0cec9739#npm:2.1.1"],\
+            ["@fastify/ajv-compiler", "npm:3.4.0"],\
+            ["ajv", "npm:8.11.2"],\
+            ["ajv-formats", "virtual:15f6a5a83fe5afdb56b7a56cd681decbfd2417ed38fe603b667b3f112ae49ab8bf48216950bd6d553014bf9cb21278f1ed1cfbf3e4908733f522141bac515503#npm:2.1.1"],\
             ["fast-uri", "npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
@@ -972,6 +972,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["uri-js", "npm:4.4.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:8.11.2", {\
+          "packageLocation": "./.yarn/cache/ajv-npm-8.11.2-96b35a945e-53435bf79e.zip/node_modules/ajv/",\
+          "packageDependencies": [\
+            ["ajv", "npm:8.11.2"],\
+            ["fast-deep-equal", "npm:3.1.3"],\
+            ["json-schema-traverse", "npm:1.0.0"],\
+            ["require-from-string", "npm:2.0.2"],\
+            ["uri-js", "npm:4.4.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["ajv-formats", [\
@@ -982,10 +993,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:88223e9150645328f8bb1093386d1cb6473799d8d37a6dc8403037b490f03d4e072041ccf02d589b91003cde7b02498bef0e6eb8b6e1aa843b1d544e0cec9739#npm:2.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/ajv-formats-virtual-c4cd0528f6/0/cache/ajv-formats-npm-2.1.1-3cec02eae9-4a287d937f.zip/node_modules/ajv-formats/",\
+        ["virtual:15f6a5a83fe5afdb56b7a56cd681decbfd2417ed38fe603b667b3f112ae49ab8bf48216950bd6d553014bf9cb21278f1ed1cfbf3e4908733f522141bac515503#npm:2.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/ajv-formats-virtual-d2e9371cd0/0/cache/ajv-formats-npm-2.1.1-3cec02eae9-4a287d937f.zip/node_modules/ajv-formats/",\
           "packageDependencies": [\
-            ["ajv-formats", "virtual:88223e9150645328f8bb1093386d1cb6473799d8d37a6dc8403037b490f03d4e072041ccf02d589b91003cde7b02498bef0e6eb8b6e1aa843b1d544e0cec9739#npm:2.1.1"],\
+            ["ajv-formats", "virtual:15f6a5a83fe5afdb56b7a56cd681decbfd2417ed38fe603b667b3f112ae49ab8bf48216950bd6d553014bf9cb21278f1ed1cfbf3e4908733f522141bac515503#npm:2.1.1"],\
+            ["@types/ajv", null],\
+            ["ajv", "npm:8.11.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/ajv",\
+            "ajv"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:60815ff13cf8ed687cfeed852250ecf488e08bef9b179d23deae942dfe3f9fda55a264872edb1d9098cc837dbc55188694320534337592aeef6f88bca53d89d1#npm:2.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/ajv-formats-virtual-54cd364ac6/0/cache/ajv-formats-npm-2.1.1-3cec02eae9-4a287d937f.zip/node_modules/ajv-formats/",\
+          "packageDependencies": [\
+            ["ajv-formats", "virtual:60815ff13cf8ed687cfeed852250ecf488e08bef9b179d23deae942dfe3f9fda55a264872edb1d9098cc837dbc55188694320534337592aeef6f88bca53d89d1#npm:2.1.1"],\
             ["@types/ajv", null],\
             ["ajv", "npm:8.11.0"]\
           ],\
@@ -1694,6 +1718,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["fast-decode-uri-component", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/fast-decode-uri-component-npm-1.0.1-578ba9fecf-427a48fe09.zip/node_modules/fast-decode-uri-component/",\
+          "packageDependencies": [\
+            ["fast-decode-uri-component", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["fast-deep-equal", [\
         ["npm:3.1.3", {\
           "packageLocation": "./.yarn/cache/fast-deep-equal-npm-3.1.3-790edcfcf5-e21a9d8d84.zip/node_modules/fast-deep-equal/",\
@@ -1724,10 +1757,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fast-json-stringify", "npm:5.3.0"],\
             ["@fastify/deepmerge", "npm:1.1.0"],\
             ["ajv", "npm:8.11.0"],\
-            ["ajv-formats", "virtual:88223e9150645328f8bb1093386d1cb6473799d8d37a6dc8403037b490f03d4e072041ccf02d589b91003cde7b02498bef0e6eb8b6e1aa843b1d544e0cec9739#npm:2.1.1"],\
+            ["ajv-formats", "virtual:60815ff13cf8ed687cfeed852250ecf488e08bef9b179d23deae942dfe3f9fda55a264872edb1d9098cc837dbc55188694320534337592aeef6f88bca53d89d1#npm:2.1.1"],\
             ["fast-deep-equal", "npm:3.1.3"],\
             ["fast-uri", "npm:2.1.0"],\
             ["rfdc", "npm:1.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["fast-querystring", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/fast-querystring-npm-1.0.0-5343234408-5f70df27d0.zip/node_modules/fast-querystring/",\
+          "packageDependencies": [\
+            ["fast-querystring", "npm:1.0.0"],\
+            ["fast-decode-uri-component", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1751,24 +1794,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["fastify", [\
-        ["npm:4.5.3", {\
-          "packageLocation": "./.yarn/cache/fastify-npm-4.5.3-ee6ca391fd-2c5b1d10ce.zip/node_modules/fastify/",\
+        ["npm:4.10.0", {\
+          "packageLocation": "./.yarn/cache/fastify-npm-4.10.0-e11e9ae053-68c905a930.zip/node_modules/fastify/",\
           "packageDependencies": [\
-            ["fastify", "npm:4.5.3"],\
-            ["@fastify/ajv-compiler", "npm:3.2.0"],\
+            ["fastify", "npm:4.10.0"],\
+            ["@fastify/ajv-compiler", "npm:3.4.0"],\
             ["@fastify/error", "npm:3.0.0"],\
             ["@fastify/fast-json-stringify-compiler", "npm:4.1.0"],\
             ["abstract-logging", "npm:2.0.1"],\
             ["avvio", "npm:8.2.0"],\
-            ["find-my-way", "npm:7.1.0"],\
-            ["light-my-request", "npm:5.6.0"],\
-            ["pino", "npm:8.5.0"],\
+            ["find-my-way", "npm:7.3.1"],\
+            ["light-my-request", "npm:5.6.1"],\
+            ["pino", "npm:8.7.0"],\
             ["process-warning", "npm:2.0.0"],\
             ["proxy-addr", "npm:2.0.7"],\
             ["rfdc", "npm:1.3.0"],\
             ["secure-json-parse", "npm:2.5.0"],\
             ["semver", "npm:7.3.7"],\
-            ["tiny-lru", "npm:8.0.2"]\
+            ["tiny-lru", "npm:10.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1813,11 +1856,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["find-my-way", [\
-        ["npm:7.1.0", {\
-          "packageLocation": "./.yarn/cache/find-my-way-npm-7.1.0-3fd71b8a82-a3a5897ce4.zip/node_modules/find-my-way/",\
+        ["npm:7.3.1", {\
+          "packageLocation": "./.yarn/cache/find-my-way-npm-7.3.1-fbb8a4e46d-eec65665c3.zip/node_modules/find-my-way/",\
           "packageDependencies": [\
-            ["find-my-way", "npm:7.1.0"],\
+            ["find-my-way", "npm:7.3.1"],\
             ["fast-deep-equal", "npm:3.1.3"],\
+            ["fast-querystring", "npm:1.0.0"],\
             ["safe-regex2", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -2335,7 +2379,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["concurrently", "npm:7.4.0"],\
             ["crypto-random-string", "npm:5.0.0"],\
             ["dotenv", "npm:16.0.2"],\
-            ["fastify", "npm:4.5.3"],\
+            ["fastify", "npm:4.10.0"],\
             ["inquirer", "npm:8.2.4"],\
             ["lodash", "npm:4.17.21"],\
             ["mongoose", "npm:6.6.0"],\
@@ -2353,10 +2397,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["light-my-request", [\
-        ["npm:5.6.0", {\
-          "packageLocation": "./.yarn/cache/light-my-request-npm-5.6.0-6732033803-300e24a73b.zip/node_modules/light-my-request/",\
+        ["npm:5.6.1", {\
+          "packageLocation": "./.yarn/cache/light-my-request-npm-5.6.1-86ae8ede49-c527702045.zip/node_modules/light-my-request/",\
           "packageDependencies": [\
-            ["light-my-request", "npm:5.6.0"],\
+            ["light-my-request", "npm:5.6.1"],\
             ["cookie", "npm:0.5.0"],\
             ["process-warning", "npm:2.0.0"],\
             ["set-cookie-parser", "npm:2.5.1"]\
@@ -2931,10 +2975,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["pino", [\
-        ["npm:8.5.0", {\
-          "packageLocation": "./.yarn/cache/pino-npm-8.5.0-4275389e47-94aad4cafa.zip/node_modules/pino/",\
+        ["npm:8.7.0", {\
+          "packageLocation": "./.yarn/cache/pino-npm-8.7.0-4f4e3195e7-4aa2e320aa.zip/node_modules/pino/",\
           "packageDependencies": [\
-            ["pino", "npm:8.5.0"],\
+            ["pino", "npm:8.7.0"],\
             ["atomic-sleep", "npm:1.0.0"],\
             ["fast-redact", "npm:3.1.2"],\
             ["on-exit-leak-free", "npm:2.1.0"],\
@@ -3585,10 +3629,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["tiny-lru", [\
-        ["npm:8.0.2", {\
-          "packageLocation": "./.yarn/cache/tiny-lru-npm-8.0.2-b190e31fd1-ec4d884914.zip/node_modules/tiny-lru/",\
+        ["npm:10.0.1", {\
+          "packageLocation": "./.yarn/cache/tiny-lru-npm-10.0.1-a2c23f17a4-58b5f17a35.zip/node_modules/tiny-lru/",\
           "packageDependencies": [\
-            ["tiny-lru", "npm:8.0.2"]\
+            ["tiny-lru", "npm:10.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
