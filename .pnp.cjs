@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jsonwebtoken", "npm:8.5.9"],\
             ["@types/lodash", "npm:4.14.185"],\
             ["@types/node", "npm:18.7.16"],\
-            ["@types/yargs", "npm:17.0.12"],\
+            ["@types/yargs", "npm:17.0.32"],\
             ["bcrypt", "npm:5.0.1"],\
             ["chalk", "npm:4.1.2"],\
             ["chokidar", "npm:3.5.3"],\
@@ -60,7 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tslib", "npm:2.4.0"],\
             ["tslog", "npm:3.3.4"],\
             ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"],\
-            ["yargs", "npm:17.5.1"],\
+            ["yargs", "npm:17.7.2"],\
             ["zod", "npm:3.19.0"]\
           ],\
           "linkType": "SOFT"\
@@ -882,10 +882,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/yargs", [\
-        ["npm:17.0.12", {\
-          "packageLocation": "./.yarn/cache/@types-yargs-npm-17.0.12-6f235aa456-5b41d21d86.zip/node_modules/@types/yargs/",\
+        ["npm:17.0.32", {\
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-17.0.32-38712e567a-4505bdebe8.zip/node_modules/@types/yargs/",\
           "packageDependencies": [\
-            ["@types/yargs", "npm:17.0.12"],\
+            ["@types/yargs", "npm:17.0.32"],\
             ["@types/yargs-parser", "npm:21.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -1359,6 +1359,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cliui-npm-7.0.4-d6b8a9edb6-ce2e8f578a.zip/node_modules/cliui/",\
           "packageDependencies": [\
             ["cliui", "npm:7.0.4"],\
+            ["string-width", "npm:4.2.3"],\
+            ["strip-ansi", "npm:6.0.1"],\
+            ["wrap-ansi", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/cliui-npm-8.0.1-3b029092cf-79648b3b00.zip/node_modules/cliui/",\
+          "packageDependencies": [\
+            ["cliui", "npm:8.0.1"],\
             ["string-width", "npm:4.2.3"],\
             ["strip-ansi", "npm:6.0.1"],\
             ["wrap-ansi", "npm:7.0.0"]\
@@ -2328,7 +2338,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jsonwebtoken", "npm:8.5.9"],\
             ["@types/lodash", "npm:4.14.185"],\
             ["@types/node", "npm:18.7.16"],\
-            ["@types/yargs", "npm:17.0.12"],\
+            ["@types/yargs", "npm:17.0.32"],\
             ["bcrypt", "npm:5.0.1"],\
             ["chalk", "npm:4.1.2"],\
             ["chokidar", "npm:3.5.3"],\
@@ -2346,7 +2356,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tslib", "npm:2.4.0"],\
             ["tslog", "npm:3.3.4"],\
             ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"],\
-            ["yargs", "npm:17.5.1"],\
+            ["yargs", "npm:17.7.2"],\
             ["zod", "npm:3.19.0"]\
           ],\
           "linkType": "SOFT"\
@@ -3909,6 +3919,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["yargs", "npm:17.5.1"],\
             ["cliui", "npm:7.0.4"],\
+            ["escalade", "npm:3.1.1"],\
+            ["get-caller-file", "npm:2.0.5"],\
+            ["require-directory", "npm:2.1.1"],\
+            ["string-width", "npm:4.2.3"],\
+            ["y18n", "npm:5.0.8"],\
+            ["yargs-parser", "npm:21.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:17.7.2", {\
+          "packageLocation": "./.yarn/cache/yargs-npm-17.7.2-80b62638e1-73b572e863.zip/node_modules/yargs/",\
+          "packageDependencies": [\
+            ["yargs", "npm:17.7.2"],\
+            ["cliui", "npm:8.0.1"],\
             ["escalade", "npm:3.1.1"],\
             ["get-caller-file", "npm:2.0.5"],\
             ["require-directory", "npm:2.1.1"],\
