@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/bcrypt", "npm:5.0.0"],\
             ["@types/inquirer", "npm:9.0.1"],\
             ["@types/jsonwebtoken", "npm:8.5.9"],\
-            ["@types/lodash", "npm:4.14.185"],\
+            ["@types/lodash", "npm:4.14.202"],\
             ["@types/node", "npm:18.7.16"],\
             ["@types/yargs", "npm:17.0.12"],\
             ["bcrypt", "npm:5.0.1"],\
@@ -834,10 +834,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/lodash", [\
-        ["npm:4.14.185", {\
-          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.185-974674435a-f81d13da5e.zip/node_modules/@types/lodash/",\
+        ["npm:4.14.202", {\
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.202-76de3e302b-a91acf3564.zip/node_modules/@types/lodash/",\
           "packageDependencies": [\
-            ["@types/lodash", "npm:4.14.185"]\
+            ["@types/lodash", "npm:4.14.202"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2326,7 +2326,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/bcrypt", "npm:5.0.0"],\
             ["@types/inquirer", "npm:9.0.1"],\
             ["@types/jsonwebtoken", "npm:8.5.9"],\
-            ["@types/lodash", "npm:4.14.185"],\
+            ["@types/lodash", "npm:4.14.202"],\
             ["@types/node", "npm:18.7.16"],\
             ["@types/yargs", "npm:17.0.12"],\
             ["bcrypt", "npm:5.0.1"],\
