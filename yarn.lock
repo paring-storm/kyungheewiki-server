@@ -1997,7 +1997,7 @@ __metadata:
     inquirer: 8.2.4
     lodash: 4.17.21
     mongoose: 6.6.0
-    nodemon: 2.0.19
+    nodemon: 2.0.22
     prettier: 2.7.1
     tsconfig-paths: 4.1.0
     tsconfig-to-swcconfig: 2.0.1
@@ -2119,12 +2119,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.0.4, minimatch@npm:^3.1.1":
+"minimatch@npm:^3.1.1":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
   dependencies:
     brace-expansion: ^1.1.7
   checksum: c154e566406683e7bcb746e000b84d74465b3a832c45d59912b9b55cd50dee66e5c4b1e5566dba26154040e51672f9aa450a9aef0c97cfc7336b78b7afb9540a
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^3.1.2":
+  version: 3.1.5
+  resolution: "minimatch@npm:3.1.5"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: 47ef6f412c08be045a7291d11b1c40777925accf7252dc6d3caa39b1bfbb3a7ea390ba7aba464d762d783265c644143d2c8a204e6b5763145024d52ee65a1941
   languageName: node
   linkType: hard
 
@@ -2367,14 +2376,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemon@npm:2.0.19":
-  version: 2.0.19
-  resolution: "nodemon@npm:2.0.19"
+"nodemon@npm:2.0.22":
+  version: 2.0.22
+  resolution: "nodemon@npm:2.0.22"
   dependencies:
     chokidar: ^3.5.2
     debug: ^3.2.7
     ignore-by-default: ^1.0.1
-    minimatch: ^3.0.4
+    minimatch: ^3.1.2
     pstree.remy: ^1.1.8
     semver: ^5.7.1
     simple-update-notifier: ^1.0.7
@@ -2383,7 +2392,7 @@ __metadata:
     undefsafe: ^2.0.5
   bin:
     nodemon: bin/nodemon.js
-  checksum: c6cf89435a8945693fac2701285eb1f539b5003d943a1be89a9ffbfc9d0275aa7779f85a9eee509e9f19a988d53ce293266d8b35b91010e36ad9e78683f8eb07
+  checksum: 9c987e139748f5b5c480c6c9080bdc97304ee7d29172b7b3da1a7db590b1323ad57b96346304e9b522b0e445c336dc393ccd3f9f45c73b20d476d2347890dcd0
   languageName: node
   linkType: hard
 
