@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/core", "npm:1.3.0"],\
             ["@trivago/prettier-plugin-sort-imports", "virtual:ae093d0fa91a73513f0a5d90de2714884a0d170a4c138bda66286b7165197577a87516d77d3622823c32526404ec6a25de8ce297e88a40862eb53ad7c318fb2e#npm:3.3.0"],\
             ["@types/bcrypt", "npm:5.0.0"],\
-            ["@types/inquirer", "npm:9.0.1"],\
+            ["@types/inquirer", "npm:9.0.10"],\
             ["@types/jsonwebtoken", "npm:8.5.9"],\
             ["@types/lodash", "npm:4.14.185"],\
             ["@types/node", "npm:18.7.16"],\
@@ -813,10 +813,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/inquirer", [\
-        ["npm:9.0.1", {\
-          "packageLocation": "./.yarn/cache/@types-inquirer-npm-9.0.1-a03f526686-105c51f3ef.zip/node_modules/@types/inquirer/",\
+        ["npm:9.0.10", {\
+          "packageLocation": "./.yarn/cache/@types-inquirer-npm-9.0.10-150d88c158-99d3dace8c.zip/node_modules/@types/inquirer/",\
           "packageDependencies": [\
-            ["@types/inquirer", "npm:9.0.1"],\
+            ["@types/inquirer", "npm:9.0.10"],\
             ["@types/through", "npm:0.0.30"],\
             ["rxjs", "npm:7.5.6"]\
           ],\
@@ -2324,7 +2324,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/core", "npm:1.3.0"],\
             ["@trivago/prettier-plugin-sort-imports", "virtual:ae093d0fa91a73513f0a5d90de2714884a0d170a4c138bda66286b7165197577a87516d77d3622823c32526404ec6a25de8ce297e88a40862eb53ad7c318fb2e#npm:3.3.0"],\
             ["@types/bcrypt", "npm:5.0.0"],\
-            ["@types/inquirer", "npm:9.0.1"],\
+            ["@types/inquirer", "npm:9.0.10"],\
             ["@types/jsonwebtoken", "npm:8.5.9"],\
             ["@types/lodash", "npm:4.14.185"],\
             ["@types/node", "npm:18.7.16"],\
