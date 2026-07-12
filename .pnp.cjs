@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["crypto-random-string", "npm:5.0.0"],\
             ["dotenv", "npm:16.0.2"],\
             ["fastify", "npm:4.5.3"],\
-            ["inquirer", "npm:8.2.4"],\
+            ["inquirer", "npm:8.2.7"],\
             ["lodash", "npm:4.17.21"],\
             ["mongoose", "npm:6.6.0"],\
             ["nodemon", "npm:2.0.19"],\
@@ -439,6 +439,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.3-ac1a325862-4059f790e2.zip/node_modules/@gar/promisify/",\
           "packageDependencies": [\
             ["@gar/promisify", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@inquirer/external-editor", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/@inquirer-external-editor-npm-1.0.3-a26b7566ca-9bd7a05247.zip/node_modules/@inquirer/external-editor/",\
+          "packageDependencies": [\
+            ["@inquirer/external-editor", "npm:1.0.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:89da895fc6c52cfbcaef8b581147d59a7db8b26b92aadd12fb1c6a8a42e4cfcc64fb8c80af7aaf4eaa0ff1e32bd41186d2ccbe98638a604583506802c2ed1384#npm:1.0.3", {\
+          "packageLocation": "./.yarn/__virtual__/@inquirer-external-editor-virtual-ecd87de0ff/0/cache/@inquirer-external-editor-npm-1.0.3-a26b7566ca-9bd7a05247.zip/node_modules/@inquirer/external-editor/",\
+          "packageDependencies": [\
+            ["@inquirer/external-editor", "virtual:89da895fc6c52cfbcaef8b581147d59a7db8b26b92aadd12fb1c6a8a42e4cfcc64fb8c80af7aaf4eaa0ff1e32bd41186d2ccbe98638a604583506802c2ed1384#npm:1.0.3"],\
+            ["@types/node", null],\
+            ["chardet", "npm:2.2.0"],\
+            ["iconv-lite", "npm:0.7.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/node"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1283,10 +1305,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chardet", [\
-        ["npm:0.7.0", {\
-          "packageLocation": "./.yarn/cache/chardet-npm-0.7.0-27933dd6c7-6fd5da1f5d.zip/node_modules/chardet/",\
+        ["npm:2.2.0", {\
+          "packageLocation": "./.yarn/cache/chardet-npm-2.2.0-9d840b17d0-da8220ab64.zip/node_modules/chardet/",\
           "packageDependencies": [\
-            ["chardet", "npm:0.7.0"]\
+            ["chardet", "npm:2.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1682,18 +1704,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["external-editor", [\
-        ["npm:3.1.0", {\
-          "packageLocation": "./.yarn/cache/external-editor-npm-3.1.0-878e7807af-1c2a616a73.zip/node_modules/external-editor/",\
-          "packageDependencies": [\
-            ["external-editor", "npm:3.1.0"],\
-            ["chardet", "npm:0.7.0"],\
-            ["iconv-lite", "npm:0.4.24"],\
-            ["tmp", "npm:0.0.33"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["fast-deep-equal", [\
         ["npm:3.1.3", {\
           "packageLocation": "./.yarn/cache/fast-deep-equal-npm-3.1.3-790edcfcf5-e21a9d8d84.zip/node_modules/fast-deep-equal/",\
@@ -2035,18 +2045,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["iconv-lite", [\
-        ["npm:0.4.24", {\
-          "packageLocation": "./.yarn/cache/iconv-lite-npm-0.4.24-c5c4ac6695-bd9f120f5a.zip/node_modules/iconv-lite/",\
-          "packageDependencies": [\
-            ["iconv-lite", "npm:0.4.24"],\
-            ["safer-buffer", "npm:2.1.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:0.6.3", {\
           "packageLocation": "./.yarn/cache/iconv-lite-npm-0.6.3-24b8aae27e-3f60d47a5c.zip/node_modules/iconv-lite/",\
           "packageDependencies": [\
             ["iconv-lite", "npm:0.6.3"],\
+            ["safer-buffer", "npm:2.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.7.3", {\
+          "packageLocation": "./.yarn/cache/iconv-lite-npm-0.7.3-0c4725f953-36b3dc2f5a.zip/node_modules/iconv-lite/",\
+          "packageDependencies": [\
+            ["iconv-lite", "npm:0.7.3"],\
             ["safer-buffer", "npm:2.1.2"]\
           ],\
           "linkType": "HARD"\
@@ -2118,15 +2128,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["inquirer", [\
-        ["npm:8.2.4", {\
-          "packageLocation": "./.yarn/cache/inquirer-npm-8.2.4-a2a5fb3187-dfcb6529d3.zip/node_modules/inquirer/",\
+        ["npm:8.2.7", {\
+          "packageLocation": "./.yarn/cache/inquirer-npm-8.2.7-89da895fc6-b7e39a04da.zip/node_modules/inquirer/",\
           "packageDependencies": [\
-            ["inquirer", "npm:8.2.4"],\
+            ["inquirer", "npm:8.2.7"],\
+            ["@inquirer/external-editor", "virtual:89da895fc6c52cfbcaef8b581147d59a7db8b26b92aadd12fb1c6a8a42e4cfcc64fb8c80af7aaf4eaa0ff1e32bd41186d2ccbe98638a604583506802c2ed1384#npm:1.0.3"],\
             ["ansi-escapes", "npm:4.3.2"],\
             ["chalk", "npm:4.1.2"],\
             ["cli-cursor", "npm:3.1.0"],\
             ["cli-width", "npm:3.0.0"],\
-            ["external-editor", "npm:3.1.0"],\
             ["figures", "npm:3.2.0"],\
             ["lodash", "npm:4.17.21"],\
             ["mute-stream", "npm:0.0.8"],\
@@ -2136,7 +2146,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["string-width", "npm:4.2.3"],\
             ["strip-ansi", "npm:6.0.1"],\
             ["through", "npm:2.3.8"],\
-            ["wrap-ansi", "npm:7.0.0"]\
+            ["wrap-ansi", "npm:6.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2336,7 +2346,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["crypto-random-string", "npm:5.0.0"],\
             ["dotenv", "npm:16.0.2"],\
             ["fastify", "npm:4.5.3"],\
-            ["inquirer", "npm:8.2.4"],\
+            ["inquirer", "npm:8.2.7"],\
             ["lodash", "npm:4.17.21"],\
             ["mongoose", "npm:6.6.0"],\
             ["nodemon", "npm:2.0.19"],\
@@ -2880,15 +2890,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["log-symbols", "npm:4.1.0"],\
             ["strip-ansi", "npm:6.0.1"],\
             ["wcwidth", "npm:1.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["os-tmpdir", [\
-        ["npm:1.0.2", {\
-          "packageLocation": "./.yarn/cache/os-tmpdir-npm-1.0.2-e305b0689b-5666560f7b.zip/node_modules/os-tmpdir/",\
-          "packageDependencies": [\
-            ["os-tmpdir", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3593,16 +3594,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["tmp", [\
-        ["npm:0.0.33", {\
-          "packageLocation": "./.yarn/cache/tmp-npm-0.0.33-bcbf65df2a-902d7aceb7.zip/node_modules/tmp/",\
-          "packageDependencies": [\
-            ["tmp", "npm:0.0.33"],\
-            ["os-tmpdir", "npm:1.0.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["to-fast-properties", [\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/to-fast-properties-npm-2.0.0-0dc60cc481-be2de62fe5.zip/node_modules/to-fast-properties/",\
@@ -3865,6 +3856,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["wrap-ansi", [\
+        ["npm:6.2.0", {\
+          "packageLocation": "./.yarn/cache/wrap-ansi-npm-6.2.0-439a7246d8-6cd96a4101.zip/node_modules/wrap-ansi/",\
+          "packageDependencies": [\
+            ["wrap-ansi", "npm:6.2.0"],\
+            ["ansi-styles", "npm:4.3.0"],\
+            ["string-width", "npm:4.2.3"],\
+            ["strip-ansi", "npm:6.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:7.0.0", {\
           "packageLocation": "./.yarn/cache/wrap-ansi-npm-7.0.0-ad6e1a0554-a790b846fd.zip/node_modules/wrap-ansi/",\
           "packageDependencies": [\
