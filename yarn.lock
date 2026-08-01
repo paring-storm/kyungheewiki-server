@@ -697,10 +697,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:4.14.185":
-  version: 4.14.185
-  resolution: "@types/lodash@npm:4.14.185"
-  checksum: f81d13da5ecab110ca9c5c7cc2bedc3c9802a6acf668576aecd1b8f4b134ed81d06c15f1e600fb08f05975098280a0d97d30cddfc2cb39ec1c6b56e971ca53b3
+"@types/lodash@npm:4.17.25":
+  version: 4.17.25
+  resolution: "@types/lodash@npm:4.17.25"
+  checksum: e21145f494b0e4a2f8bf693c8bc54b4abfef11dcf2197de40ba8222aa8469d723c3fab565771c78262e75132084e144d6b7cc576fdd84245c9a31239ee95695e
   languageName: node
   linkType: hard
 
@@ -1984,7 +1984,7 @@ __metadata:
     "@types/bcrypt": 5.0.0
     "@types/inquirer": 9.0.1
     "@types/jsonwebtoken": 8.5.9
-    "@types/lodash": 4.14.185
+    "@types/lodash": 4.17.25
     "@types/node": 18.7.16
     "@types/yargs": 17.0.12
     bcrypt: 5.0.1
